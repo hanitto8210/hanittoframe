@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ハニット FRAME｜素材サイト</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="index.html" class="logo">ハニット FRAME</a>
+
+        <nav>
+            <a href="index.html">素材一覧</a>
+        </nav>
+    </header>
+
+    <main class="detail-section">
+
+        <a href="index.html" class="back-link">
+            ← 素材一覧に戻る
+        </a>
+
+        <p id="detail-message" class="message" role="status">
+            素材を読み込んでいます...
+        </p>
+
+
+        <!-- 元画像と素材情報を横並びにする部分 -->
+        <div id="detail-content" class="detail-content" hidden>
+
+            <div class="detail-layout">
+
+
+
+                <!-- 元画像 -->
+
+
+
+                <div class="detail-image-wrap">
+
+                    <div class="preview-viewer">
+                        <img id="detail-image" class="detail-image" alt="素材プレビュー1">
+
+                        <div class="preview-controls">
+                            <button id="preview-prev" type="button" aria-label="前の画像">‹</button>
+                            <span id="preview-counter">1 / 2</span>
+                            <button id="preview-next" type="button" aria-label="次の画像">›</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- 素材情報 -->
+                <div class="detail-info">
+
+                    <p class="section-label">MATERIAL DETAIL</p>
+
+                    <h1 id="detail-name"></h1>
+
+                    <p id="detail-description"
+                       class="detail-description"></p>
+
+                    <button id="download-button"
+                            class="download-button"
+                            type="button">
+                        PNGをダウンロード
+                    </button>
+
+                    <p class="file-note">
+                        PNG形式の画像ファイルをダウンロードできます。
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- 色変更エリア：横並びレイアウトの外に置く -->
+            <section class="color-editor" id="color-editor">
+
+                <h2>素材の色を変更</h2>
+
+                <label for="lineColor">線の色：</label>
+                <input type="color" id="lineColor" value="#87ceeb">
+
+                <div class="color-preview">
+                    <img id="originalImage" alt="元の素材">
+                    <canvas id="colorCanvas"></canvas>
+                </div>
+
+                <button id="downloadColorImage" type="button">
+                    色を変更したPNGをダウンロード
+                </button>
+
+            </section>
+
+        </div>
+
+        <!-- 素材が見つからない場合 -->
+        <div id="not-found" class="not-found" hidden>
+
+            <h2>素材が見つかりませんでした</h2>
+
+            <p>
+                URLをご確認のうえ、素材一覧から選び直してください。
+            </p>
+
+            <a href="index.html" class="back-link">
+                素材一覧に戻る
+            </a>
+
+        </div>
+
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 素材屋さん</p>
+    </footer>
+    <script src="color-editor.js"></script>
+</body>
+</html>

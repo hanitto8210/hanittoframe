@@ -1,0 +1,32 @@
+[
+  {
+    "id": "106",
+    "name": "ハロウィン106/4：5（1080×1350）",
+    "description": "ハロウィン向けフレーム。\n 背景が透明なPNG画像です。",
+    "image": "images/106p.jpg",
+    "image2": "images/106p2.jpg",
+    "file": "images/106.png"
+  },
+  {
+    "id": "107",
+    "name": "飾り枠107/4：5（1080×1350）",
+    "description": "\n 背景が透明なPNG画像です。",
+    "image": "images/107p.jpg",
+    "file": "images/107.png"
+  },
+  {
+    "id": "108",
+    "name": "つる草108/4：5（1080×1350）",
+    "description": "植物モチーフのフレーム。\n 背景が透明なPNG画像です。",
+    "image": "images/108p.jpg",
+    "file": "images/108.png"
+  },
+  {
+    "id": "109",
+    "name": "古代風飾り枠109/4：5（1080×1350）",
+    "description": "色固定/古代風の額縁。\n 背景が透明なPNG画像です。",
+    "image": "images/109p.jpg",
+    "file": "images/109.png",
+    "colorChange": false
+  }
+]
