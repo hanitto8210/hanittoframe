@@ -1,5 +1,12 @@
 [
   {
+    "id": "110",
+    "name": "上下飾り枠110",
+    "description": "\n 背景が透明なPNG画像です。",
+    "image": "images/110p.jpg",
+    "file": "images/110.png"
+  },
+  {
     "id": "106",
     "name": "ハロウィン106/4：5（1080×1350）",
     "description": "ハロウィン向けフレーム。\n 背景が透明なPNG画像です。",
