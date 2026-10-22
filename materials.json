@@ -4,14 +4,16 @@
     "name": "ラッフルリボンミラー115",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/115p.jpg",
-    "file": "images/115.png"
+    "file": "images/115.png",
+    "colorChange": true
   },
   {
     "id": "110",
     "name": "上下飾り枠110",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/110p.jpg",
-    "file": "images/110.png"
+    "file": "images/110.png",
+    "colorChange": true
   },
   {
     "id": "106",
@@ -19,21 +21,24 @@
     "description": "ハロウィン向けフレーム。\n 背景が透明なPNG画像です。",
     "image": "images/106p.jpg",
     "image2": "images/106p2.jpg",
-    "file": "images/106.png"
+    "file": "images/106.png",
+    "colorChange": true
   },
   {
     "id": "107",
     "name": "飾り枠107/4：5（1080×1350）",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/107p.jpg",
-    "file": "images/107.png"
+    "file": "images/107.png",
+    "colorChange": true
   },
   {
     "id": "108",
     "name": "つる草108/4：5（1080×1350）",
     "description": "植物モチーフのフレーム。\n 背景が透明なPNG画像です。",
     "image": "images/108p.jpg",
-    "file": "images/108.png"
+    "file": "images/108.png",
+    "colorChange": true
   },
   {
     "id": "109",
@@ -48,27 +53,31 @@
     "name": "ラッフルリボン縦111",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/111p.jpg",
-    "file": "images/111.png"
+    "file": "images/111.png",
+    "colorChange": true
   },
   {
     "id": "112",
     "name": "ラッフルリボン横112",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/112p.jpg",
-    "file": "images/112.png"
+    "file": "images/112.png",
+    "colorChange": true
   },
   {
     "id": "113",
     "name": "ミラー楕円縦113",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/113p.jpg",
-    "file": "images/113.png"
+    "file": "images/113.png",
+    "colorChange": true
   },
   {
     "id": "114",
     "name": "額縁114",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/114p.jpg",
-    "file": "images/114.png"
+    "file": "images/114.png",
+    "colorChange": true
   }
 ]
