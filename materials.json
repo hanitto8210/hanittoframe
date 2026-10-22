@@ -4,8 +4,7 @@
     "name": "ラッフルリボンミラー115",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/115p.jpg",
-    "file": "images/115.png",
-    "colorChange": false
+    "file": "images/115.png"
   },
   {
     "id": "110",
@@ -49,31 +48,27 @@
     "name": "ラッフルリボン縦111",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/111p.jpg",
-    "file": "images/111.png",
-    "colorChange": false
+    "file": "images/111.png"
   },
   {
     "id": "112",
     "name": "ラッフルリボン横112",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/112p.jpg",
-    "file": "images/112.png",
-    "colorChange": false
+    "file": "images/112.png"
   },
   {
     "id": "113",
     "name": "ミラー楕円縦113",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/113p.jpg",
-    "file": "images/113.png",
-    "colorChange": false
+    "file": "images/113.png"
   },
   {
     "id": "114",
     "name": "額縁114",
     "description": "\n 背景が透明なPNG画像です。",
     "image": "images/114p.jpg",
-    "file": "images/114.png",
-    "colorChange": false
+    "file": "images/114.png"
   }
 ]
